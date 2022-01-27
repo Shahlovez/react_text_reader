@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Card from "./components/Card";
 import Banner from "./components/Banner";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
 
 
 const dataBannar = [
@@ -48,6 +48,7 @@ export default class App extends Component {
   render() {
     return (
       <>  
+      {/* <Carousel /> */}
       <Banner data={dataBannar}/>
       <Card title="Emotions" data={dataEmotions}/>
       <Card title="Actions" data={dataActions}/>

@@ -1,11 +1,11 @@
 .header {
     height: 100vh;
-   width: 100vw;
-   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://www.wanderon.in/triplist/main-cover.jpg");
+   width: 100%;
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.7) 0%), url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   display: flex;
+   display:flex;
    flex-direction: column;
    align-items: center;
    justify-content: flex-end;
