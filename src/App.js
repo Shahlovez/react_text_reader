@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import Speech from "./components/Speech";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Card from "./components/Card";
 import Banner from "./components/Banner";
-// import Carousel from "./components/Carousel";
+
 
 
 const dataBannar = [
@@ -14,6 +15,9 @@ const dataBannar = [
 
 const dataEmotions = [
   {url:"https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhcHB5JTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
+  
+  
+  
   {url:"https://images.unsplash.com/photo-1512981548919-4a460438cb4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FkJTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
   {url:"https://images.unsplash.com/photo-1566513875272-0e184c92b77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhjaXRlZCUyMGNoaWxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
    {url:"https://images.unsplash.com/photo-1483193722442-5422d99849bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2NhcmVkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
@@ -40,9 +44,6 @@ const dataRandom = [
 {url:"https://images.unsplash.com/photo-1464349153735-7db50ed83c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJpcnRoZGF5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
 ]
 
-const dataCarousel = [
-
-]
 
 export default class App extends Component {
   render() {
@@ -50,6 +51,7 @@ export default class App extends Component {
       <>  
       {/* <Carousel /> */}
       <Banner data={dataBannar}/>
+       <Speech /> 
       <Card title="Emotions" data={dataEmotions}/>
       <Card title="Actions" data={dataActions}/>
       <Card title="Random photos" data={dataRandom}/>
