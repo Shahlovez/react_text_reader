@@ -39,7 +39,7 @@ export default function Card({title,data}) {
               
                 
 
-                <h2>It works!</h2>
+                {/* <h2>Title</h2> */}
              
               </div>
             );
