@@ -14,15 +14,29 @@ const dataBannar = [
 ]
 
 const dataEmotions = [
-  {url:"https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhcHB5JTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
+    { id: 0,
+    title: "Happy",
+    url:"https://images.unsplash.com/photo-1498674202614-ac0172c6c61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhcHB5JTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
   
-  
-  
-  {url:"https://images.unsplash.com/photo-1512981548919-4a460438cb4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FkJTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
-  {url:"https://images.unsplash.com/photo-1566513875272-0e184c92b77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhjaXRlZCUyMGNoaWxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
-   {url:"https://images.unsplash.com/photo-1483193722442-5422d99849bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2NhcmVkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
-   {url:"https://images.unsplash.com/flagged/photo-1579632993381-847f6a71a3cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVhdGluZyUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
-   {url: "https://images.unsplash.com/photo-1453306458620-5bbef13a5bca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"},
+    { id: 1,
+    title: "Sad",
+    url:"https://images.unsplash.com/photo-1512981548919-4a460438cb4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FkJTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
+
+    {id: 2,
+    title: "Excited",
+    url:"https://images.unsplash.com/photo-1566513875272-0e184c92b77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhjaXRlZCUyMGNoaWxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
+   
+    { id: 3,
+      title: "Scared",
+      url:"https://images.unsplash.com/photo-1483193722442-5422d99849bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2NhcmVkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
+   
+    { id: 5,
+      title: "Hungry",
+      url:"https://images.unsplash.com/flagged/photo-1579632993381-847f6a71a3cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVhdGluZyUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
+   
+    { id: 6,
+        title: "Cold",
+        url: "https://images.unsplash.com/photo-1453306458620-5bbef13a5bca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"},
 
   ]
 
@@ -49,7 +63,7 @@ export default class App extends Component {
   render() {
     return (
       <>  
-      {/* <Carousel /> */}
+ 
       <Banner data={dataBannar}/>
        <Speech /> 
       <Card title="Emotions" data={dataEmotions}/>

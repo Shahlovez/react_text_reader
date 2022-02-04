@@ -26,9 +26,9 @@ export default function Card({title,data}) {
     nextArrow: <SlickArrowRight />,
     };
     return (
-     <div className="card__container">
-   <h1>{title}</h1>
- <Slider {...settings} className="card__container--inner">
+    <div className="card__container">
+    <h1>{title}</h1>
+  <Slider {...settings} className="card__container--inner">
           {data.map((item, index) => {
             return (
               <div
@@ -36,16 +36,15 @@ export default function Card({title,data}) {
               key={index}>
                 
                 <img src={item.url} alt="hero_img" /> 
-              
-                
+             
 
                 {/* <h2>Title</h2> */}
-             
+            
               </div>
             );
           })}
-        </Slider>
-     </div>
-       
+    </Slider>
+    </div>
+      
     );
   }
