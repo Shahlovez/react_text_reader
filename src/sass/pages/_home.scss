@@ -1,6 +1,7 @@
 .card__container {
   margin-top: auto;
   margin-bottom: 70px;
+  margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +10,7 @@
 
     h1{
       margin-bottom: 20px;
+      margin-left: 28px;
       width: 90%;
       text-align: left;
       text-transform: capitalize;
@@ -17,37 +19,45 @@
         color: #0a9e88;
     }
       &--inner{
+      
         width: 90%;
         padding: 5px;
         display: block;
         &--card{
-          padding: 10px 0;
+          border: 2px solid salmon;
+          border-radius: 10px;
+          padding: 10px;
           max-width: 308px;
           color: #fff;
           font-size: 50px;
           text-align: center;
-          // margin-left: 10px;
+          margin-left: 10px;
          
-    
-
+          // @media (max-width: 1200px){
+          //   .card__container {
+          //    display: inline-block;
+          //   }
+          // }
         h2{
-        color: rgb(58, 58, 58);
+        color: salmon;;
         font-size: 1.3vw;
         font-weight: 600;
         padding-left: 8px;
-        white-space: nowrap;
+        // padding-bottom: 30px;
         overflow: hidden;
         text-overflow: ellipsis;
-        text-align: left;
-        line-height: 1;
+        text-align: center;
+        line-height: 3;
           }
+  
+        
         p{
         font-size: 1vw;
         font-weight: 400;
-                color: rgb(58, 58, 58);
-                text-align: left;
-                padding-left: 8px;
-                line-height: 0;
+        color: rgb(58, 58, 58);
+        text-align: left;
+        padding-left: 8px;
+        line-height: 0;
         span{
         color: rgb(58, 58, 58);
         font-size: 1.2vw;
@@ -65,13 +75,14 @@
         -webkit-box-pack: center;
         justify-content: center;
         border-radius: 10px;
+     
          }
           
         
-        &:hover{
-          transform: scale(1.05);
-          cursor: pointer;
-        }
+        // &:hover{
+        //   transform: scale(1.05);
+        //   cursor: pointer;
+        // }
       
         }
           p{
