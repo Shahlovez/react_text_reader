@@ -48,7 +48,7 @@ const dataActions = [
     message: "I want to go home!",
     url:"https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"},
   {id: 9,
-    message: "Visit Grandma and Grandpa",
+    message: "Visit Grandparents",
     url: "https://images.unsplash.com/photo-1593100126453-19b562a800c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhbmRwYXJlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
   {id: 10,
     message: "Ride a bike",
