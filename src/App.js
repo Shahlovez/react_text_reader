@@ -1,18 +1,13 @@
 import React, {Component} from 'react';
-import Speech from "./components/Speech";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Card from "./components/Card";
 import Banner from "./components/Banner";
 
-
-
 const dataBannar = [
-
-{title: "Cover page", url:"https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80"},
-
+      {title: "Cover page", 
+      url:"https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80"},
 ]
-
 const dataEmotions = [
     { id: 0,
     message: "Happy",
@@ -53,11 +48,11 @@ const dataActions = [
   {id: 10,
     message: "Ride a bike",
     url: "https://images.unsplash.com/photo-1618542651917-aa50444c8465?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJpZGUlMjBhJTIwYmlrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"},
-   {id: 11,
+  {id: 11,
     message:"Listen to music",
     url:"https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"},
    
-    {id: 12,
+  {id: 12,
     message:"Share",
     url:"https://media.istockphoto.com/photos/boxes-with-clothes-for-donation-in-home-interior-picture-id1321296846?b=1&k=20&m=1321296846&s=170667a&w=0&h=CZq1VC0HkUIF0-bikwYoWlzwpQVzkZ_BlrVS-3_OlV8="},
 ]
@@ -83,18 +78,14 @@ const dataRandom = [
   url:"https://images.unsplash.com/photo-1464349153735-7db50ed83c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJpcnRoZGF5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"},
 ]
 
-
 export default class App extends Component {
   render() {
     return (
       <>  
- 
       <Banner data={dataBannar}/>
-       {/* <Speech />  */}
       <Card title="Emotions" data={dataEmotions}/>
       <Card title="Actions" data={dataActions}/>
       <Card title="Random photos" data={dataRandom}/>
-
       </>
     )
   }

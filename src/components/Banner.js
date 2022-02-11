@@ -1,10 +1,6 @@
 import React from 'react'
-// import Speech from "./components/Speech";
 import Typewriter from 'typewriter-effect';
 import Speech from './Speech';
-
-
-
 class Banner extends React.Component {
 
   render() {
