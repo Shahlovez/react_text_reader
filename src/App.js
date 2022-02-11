@@ -90,7 +90,7 @@ export default class App extends Component {
       <>  
  
       <Banner data={dataBannar}/>
-       <Speech /> 
+       {/* <Speech />  */}
       <Card title="Emotions" data={dataEmotions}/>
       <Card title="Actions" data={dataActions}/>
       <Card title="Random photos" data={dataRandom}/>
